@@ -40,10 +40,11 @@ const Login = () => {
                         <div className="form-control mt-6">
                             <button className="btn btn-primary">Login</button>
                         </div>
+                        <p>
+                            New to our website? Please <Link to="/register">Register</Link>
+                        </p>
                     </form>
-                    <p>
-                        New to our website? Please <Link to="/register">Register</Link>
-                    </p>
+
                 </div>
             </div>
         </div>
